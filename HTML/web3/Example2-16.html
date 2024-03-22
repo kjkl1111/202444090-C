@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>표만들기</title>
+</head>
+<body>
+    <h3>기본 테이블 만들기</h3>
+    <hr>
+    <table border="1">
+        <caption>2024년 1학기 성적</caption>
+        <thead>
+            <tr><th>이름</th><th>HTML</th><th>CSS</th></tr>
+        </thead>
+        <tfoot>
+            <tr><th>합</th><th>256</th><th>230</th></tr>
+        </tfoot>
+        <tbody>
+            <tr><td>황기태</td><td>80</td><td>70</td></tr>
+            <tr><td>이재문</td><td>95</td><td>90</td></tr>
+            <tr><td>이병은</td><td>40</td><td>55</td></tr>
+            <tr><td>오창룡</td><td>99</td><td>99</td></tr>
+        </tbody>
+    </table>
+    <p></p>
+    <hr>
+    <p></p>
+    <h3>복합 테이블 만들기</h3>
+    <table border="1">
+        <tbody>
+            <tr>
+                <td rowspan="5">사진넣기</td>
+                <th colspan="4">이력서</th>
+            </tr>
+            <tr>
+                <th rowspan="2">성명</th>
+                <td rowspan="2">홍길동</td>
+                <th colspan="2">주민등록</th>
+            </tr>
+            <tr>
+                <td colspan="2">000000-1234567</td>
+            </tr>
+            <tr>
+                <th rowspan="2">생년월일</th>
+                <td rowspan="2">2024년 12월 25일</td>
+                <th colspan="2">연락처</th>
+            </tr>
+            <tr>
+                <td colspan="2">010-1234-5678</td>
+            </tr>
+            <tr>
+                <th>주소</th>
+                <td colspan="4">서울특별시 동작구 사당동 1200번지</td>
+            </tr>
+            <tr>
+                <th>호적관계</th>
+                <td>호주와의 관계</td>
+                <td>아버지</td>
+                <th>호주성명</th>
+                <td>오창룡</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
